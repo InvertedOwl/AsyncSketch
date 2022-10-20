@@ -53,7 +53,6 @@ namespace AsyncSketch
             private static Thread mainThread;
             public static bool Prefix(bool firstStep, Device __instance)
             {
-                UnityModManager.Logger.Log("WE ARRIVED");
 
                 if (__instance.state == Device.State.Solid)
                 {
